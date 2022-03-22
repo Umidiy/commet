@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/photos/man-sits-thoughtfully-in-front-of-a-latop-on-a-leather-chair-he-is-picture-id1384202221?b=1&k=20&m=1384202221&s=170667a&w=0&h=TXNfaZAJryVjHc8_5TVo4wSMUjigh5kgvsliKLiKerQ=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color:#fff;
+    /* background-position: center; */
+    height: 1000px;
+}
+
+.bady li {
+  margin: 0 15px;
+  list-style: none;
+  text-transform: uppercase;
+  color: crimson;
+}
+
+.bady ul{
+   display: flex;
+   float: right;
+   margin-top: -10px;
+}
+
+.bady h1{
+    color: rgb(14, 57, 250);
+    text-transform: uppercase;
+}
+
+.text-info{
+    text-align: center;
+    margin-top: 150px;
+    color: tomato;
+}
+
+button{
+    border: 3px solid black;
+    padding: 15px;
+    width: 150px;
+    word-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background: rgb(53, 2, 12);
+    transition: .2s;
+}
+
+.bady:hover{
+    background: black;
+    transition: .3;
+    height: 70px;
+} 
